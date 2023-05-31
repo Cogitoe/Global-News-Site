@@ -1,0 +1,79 @@
+#nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.182);
+    
+}
+.ul-left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+}
+.ul-left li {
+    list-style-type: none;
+   
+}
+
+.ul-right li a, .ul-left li a {
+    text-decoration: none;
+    color: rgb(10,10,10);
+}
+
+.ul-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
+    color: red;
+    font-family: "Playfair";
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.ul-right li{
+    list-style-type: none;
+}
+
+.profile-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+
+
+
+.menu {
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    #nav-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.182);
+        
+    }
+    .li {
+        display: none;
+    }
+    
+    .nav-left{
+        display: none;
+    }
+    .logo{
+        color: red;
+        font-family: "Playfair";
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .menu {
+        display: block;
+    }
+}

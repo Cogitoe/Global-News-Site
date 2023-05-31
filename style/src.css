@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600&family=Roboto+Flex:wght@300;400&display=swap');
+@import url('./nav.css');
+@import url('./welcome.css');
 body{
+    --post-title: "Playfair";
+    --web-text: "Roboto Flex";
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 7%;
     margin-top: 2%;
+    font-family: var(--web-text);
+    color: rgb(10,10,10);
     
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        --post-title: "Playfair";
+        --web-text: "Roboto Flex";
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+        font-family: var(--web-text);
+        color: rgb(10,10,10);
+        
+    }
+
 }
