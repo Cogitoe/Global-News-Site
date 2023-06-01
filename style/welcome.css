@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600&display=swap');
 #welcome-section{
     background-color: rgba(180, 173, 173, 0.356);
     border-radius: 20px;
@@ -31,6 +32,35 @@
 
 .main-story-title{
     font-size:3rem;
+    font-family: "Playfair";
+}
+
+.latest-news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.news-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2%;
+    grid-gap: 10px;
+    
+
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.story-title-text{
+    font-family: "Playfair";
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 15%;
+
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
